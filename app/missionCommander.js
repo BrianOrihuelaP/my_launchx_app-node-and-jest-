@@ -4,4 +4,12 @@ class MissionCommander {
     }
   }
 
+  class Explorer{
+    constructor (name, age){
+      this.name = name;
+      this.age = age;
+    }
+  }
+
   module.exports = MissionCommander
+  module.exports = Explorer
